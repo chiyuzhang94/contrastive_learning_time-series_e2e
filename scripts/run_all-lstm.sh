@@ -12,7 +12,7 @@ learning_rate=0.001
 mare="False"
 time_feat="False"
 closs_decay="False"
-for task in ETTh2 ETTh11 ETTh12 ETTm11 ETTm12 ECL #ETTh1 ETTh2 ETTm11 ETTm12 ECL 
+for task in ETTh1 ETTm1 ECL 
     do
     for model in 'lstm-moco'
         do
